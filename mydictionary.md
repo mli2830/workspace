@@ -22,5 +22,12 @@ or infectious agent is a biological agent that causes disease or illness to its 
 
 ##R
 
+###Rabies (狂犬病）
+is a zoonotic disease that caused by a virus. The Disease infects domestic and wild animals, and is spread to people through close contact with infected saliva via bites or scratches.
+
 ###RNA virus
 
+##Z
+
+###Zoonotic disease
+a disease that is transmitted to humans from animals
