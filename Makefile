@@ -46,6 +46,15 @@ $(Bio3SS):
 $(Bio3SS:%=%.ssh): %.ssh:
 	$(MAKE) name=$* user=Bio3SS ssh_set
 
+Outbreak-analysis = Zika who_ebola
+
+$(Outbreak-analysis):
+	$(MAKE) target=$@ user=Outbreak-analysis clone
+
+$(Outbreak-analysis:%=%.ssh): %.ssh:
+	$(MAKE) name=$* user=Outbreak-analysis ssh_set
+
+
 theobio_group = Serodiscordance_Champredon_2013 DHS_downloads Condom_awareness generation_interval_moments Disease_data
 
 $(theobio_group):
