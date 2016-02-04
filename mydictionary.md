@@ -8,6 +8,8 @@
 
 ####Ebola
 
+###Evolution
+
 ##H
 ###HIV
 
@@ -26,6 +28,12 @@ or infectious agent is a biological agent that causes disease or illness to its 
 is a zoonotic disease that caused by a virus. The Disease infects domestic and wild animals, and is spread to people through close contact with infected saliva via bites or scratches.
 
 ###RNA virus
+
+##T
+
+###Theories
+Tradeoff
+
 
 ##Z
 
