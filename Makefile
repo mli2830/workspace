@@ -38,7 +38,7 @@ dushoff_github = CIHR_Ebola Ebola_stochasticity make Planning rabies-SD RR autor
 $(dushoff_github):
 	$(MAKE) target=$@ user=dushoff clone
 
-Bio3SS = Bio3SS.github.io Bio3SS_content Population_time_series Lecture_images Exponential_figures
+Bio3SS = Bio3SS.github.io Bio3SS_content Population_time_series Lecture_images Exponential_figures 3SS
 
 $(Bio3SS):
 	$(MAKE) target=$@ user=Bio3SS clone
@@ -60,7 +60,7 @@ theobio_group = Serodiscordance_Champredon_2013 DHS_downloads Condom_awareness g
 $(theobio_group):
 	$(MAKE) target=$@ user=mac-theobio clone
 
-mli_github = Survival mylife lunchbox rdc mikenimble cancer_survival 
+mli_github = Survival mylife lunchbox rdc mikenimble cancer_survival nimble_test
 $(mli_github):
 	$(MAKE) target=$@ user=mli2830 clone
 
