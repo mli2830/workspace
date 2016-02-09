@@ -46,7 +46,7 @@ $(Bio3SS):
 $(Bio3SS:%=%.ssh): %.ssh:
 	$(MAKE) name=$* user=Bio3SS ssh_set
 
-Outbreak-analysis = Zika who_ebola
+Outbreak-analysis = Zika who_ebola hybrid_fitting tmp_SEIFR Ebola_presentation OA_workspace OA_Planning tmp_earlyForecast tmp_data WA_Ebola_Outbreak
 
 $(Outbreak-analysis):
 	$(MAKE) target=$@ user=Outbreak-analysis clone
