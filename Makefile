@@ -4,6 +4,7 @@ start:
 ######################################################################
 # Cloning
 
+repo = https://github.com
 ms = makestuff/
 
 %.dir:
@@ -45,7 +46,7 @@ $(Outbreak-analysis):
 $(Outbreak-analysis:%=%.ssh): %.ssh:
 	$(MAKE) name=$* user=Outbreak-analysis ssh_set
 
-mli_github = Survival mylife lunchbox rdc mikenimble cancer_survival nimble_test HLPM Survival
+mli_github = Survival mylife lunchbox rdc mikenimble cancer_survival nimble_test HLPM 
 $(mli_github):
 	$(MAKE) target=$@ user=mli2830 clone
 
