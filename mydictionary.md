@@ -34,6 +34,11 @@
 ###Pathogen (病原体）
 or infectious agent is a biological agent that causes disease or illness to its host.
 
+##Q
+
+###Quarantine (隔离)
+a state, period, or place of isolation in which people or animals that have arrived from elsewhere or been exposed to infectious or contagious disease are placed.
+
 ##R
 
 ###Rabies (狂犬病）
