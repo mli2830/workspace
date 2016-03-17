@@ -38,6 +38,15 @@ $(Bio3SS):
 $(Bio3SS:%=%.ssh): %.ssh:
 	$(MAKE) name=$* user=Bio3SS ssh_set
 
+mac-theobio = DHS_pipeline
+
+$(mac-theobio):
+	$(MAKE) target=$@ user=mac-theobio clone
+
+$(mac-theobio:%=%.ssh): %.ssh:
+	$(MAKE) name=$* user=mac-theobio ssh_set
+
+
 Outbreak-analysis = OA_workspace
 
 $(Outbreak-analysis):
@@ -46,11 +55,11 @@ $(Outbreak-analysis):
 $(Outbreak-analysis:%=%.ssh): %.ssh:
 	$(MAKE) name=$* user=Outbreak-analysis ssh_set
 
-mli_github = Survival mylife lunchbox rdc mikenimble cancer_survival nimble_test HLPM 
+mli_github = Survival mylife lunchbox rdc mikenimble cancer_survival nimble_test HLPM Li_Rabies mli_sims
 $(mli_github):
 	$(MAKE) target=$@ user=mli2830 clone
 
-bolker_github = cpcbp hmm_temphet bbmisc 
+bolker_github = cpcbp hmm_temphet bbmisc mixedmodels-misc math1mp
 $(bolker_github):
 	$(MAKE) target=$@ user=bbolker clone
 
