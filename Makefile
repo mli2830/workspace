@@ -55,9 +55,9 @@ $(Outbreak-analysis):
 $(Outbreak-analysis:%=%.ssh): %.ssh:
 	$(MAKE) name=$* user=Outbreak-analysis ssh_set
 
-mli_github = Survival mylife lunchbox rdc mikenimble cancer_survival nimble_test HLPM Li_Rabies mli_sims
+mli_github = Survival mylife lunchbox rdc mikenimble cancer_survival nimble_test HLPM Li_Rabies mli_sims HIV_Coupling
 $(mli_github):
-	$(MAKE) target=$@ user=mli2830 clone
+	$(MAKE) target=$@ user=wzmli clone
 
 bolker_github = cpcbp hmm_temphet bbmisc mixedmodels-misc math1mp
 $(bolker_github):
