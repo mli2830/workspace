@@ -66,3 +66,7 @@ $(bolker_github):
 fishforwish = fgc
 $(fishforwish):
 	$(MAKE) target=$@ user=fishforwish clone
+	
+	
+	
+-include rmk.mk
