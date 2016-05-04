@@ -67,7 +67,7 @@ fishforwish = fgc
 $(fishforwish):
 	$(MAKE) target=$@ user=fishforwish clone
 	
-ys:
+yushan:
 	ssh yushan.mcmaster.ca	
 
 node: 
