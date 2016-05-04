@@ -70,7 +70,7 @@ $(fishforwish):
 yushan:
 	ssh yushan.mcmaster.ca	
 
-node: 
-      ssh n04
+node:
+	ssh n04
 	
 -include rmk.mk
