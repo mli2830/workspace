@@ -59,7 +59,7 @@ mli_github = Survival mylife lunchbox rdc mikenimble cancer_survival nimble_test
 $(mli_github):
 	$(MAKE) target=$@ user=wzmli clone
 
-bolker_github = cpcbp hmm_temphet bbmisc mixedmodels-misc math1mp
+bolker_github = cpcbp hmm_temphet bbmisc mixedmodels-misc math1mp upr_2016
 $(bolker_github):
 	$(MAKE) target=$@ user=bbolker clone
 
@@ -67,6 +67,10 @@ fishforwish = fgc
 $(fishforwish):
 	$(MAKE) target=$@ user=fishforwish clone
 	
-	
+ys: 
+    ssh yushan.mcmaster.ca	
+
+node: 
+      ssh n04
 	
 -include rmk.mk
