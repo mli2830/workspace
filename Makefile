@@ -68,7 +68,7 @@ $(fishforwish):
 	$(MAKE) target=$@ user=fishforwish clone
 	
 yushan:
-	ssh yushan.mcmaster.ca	
+	ssh mikelin2@yushan.mcmaster.ca	
 
 node:
 	ssh n04
