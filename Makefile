@@ -74,3 +74,6 @@ node:
 	ssh n04
 	
 -include rmk.mk
+
+sleep:
+	sudo pm-suspend
