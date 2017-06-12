@@ -38,7 +38,7 @@ $(Bio3SS):
 $(Bio3SS:%=%.ssh): %.ssh:
 	$(MAKE) name=$* user=Bio3SS ssh_set
 
-mac-theobio = DHS_pipeline
+mac-theobio = DHS_pipeline QMEE
 
 $(mac-theobio):
 	$(MAKE) target=$@ user=mac-theobio clone
