@@ -60,7 +60,7 @@ lkai_github = testing
 $(lkai_github):
 	$(MAKE) target=$@ user=missLiuuuuu clone
 
-mli_github = Survival mylife lunchbox rdc mikenimble frailty cancer_survival nimble_test HLPM Li_Rabies mli_sims HIV_Coupling factorialtemplate hybrid hybrid2 curefrailty NIMBLE-PRES hmm_temp2 Bio1m03_tut mc_recency StrucImpute hybridx comps rabies mc_status reviews rabies_recode rabies_R0 phylotesting wzmli.github.com 
+mli_github = Survival mylife lunchbox rdc mikenimble frailty cancer_survival nimble_test HLPM Li_Rabies mli_sims HIV_Coupling factorialtemplate hybrid hybrid2 curefrailty NIMBLE-PRES hmm_temp2 Bio1m03_tut mc_recency StrucImpute hybridx comps rabies mc_status reviews rabies_recode rabies_R0 phyloglmm wzmli.github.com 
 
 $(mli_github):
 	$(MAKE) target=$@ user=wzmli clone
