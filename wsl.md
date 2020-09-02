@@ -15,6 +15,16 @@ https://x410.dev/cookbook/wsl/using-x410-with-wsl2/
 
 You will need this to launch pdf (evince), rstudio and etc....
 
+### Github cre
+
+git config --global user.email "Your email"
+
+git config --global user.name "Your Name"
+
+git config --global credential.helper cache
+
+git config --global credential.helper 'cache --timeout=600'
+
 ### R.4.0 (for Ubuntu 20.04)
 
 https://rtask.thinkr.fr/installation-of-r-4-0-on-ubuntu-20-04-lts-and-tips-for-spatial-packages/#Install_new_version_of_R_(4_0)
