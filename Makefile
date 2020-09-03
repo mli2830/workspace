@@ -25,7 +25,7 @@ clone:
 ssh_set:
 	cd $(name) && git remote set-url origin $(repo):$(user)/$(name).git
 
-dushoff_github = techtex-ebola sherif makestuff TZ_clinics Latent_incidence_fitting scratch Circumcision_and_behaviour scratch
+dushoff_github = techtex-ebola sherif makestuff TZ_clinics Latent_incidence_fitting scratch Circumcision_and_behaviour scratch linux_config
 
 $(dushoff_github):
 	$(MAKE) target=$@ user=dushoff clone
